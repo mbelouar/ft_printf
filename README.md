@@ -29,7 +29,8 @@
 > _This project is pretty straight forward. You will recode printf. You will mainly learn how to use variadic arguments._
 
 	This project consists of coding a library that contains a simplified version (more
-	information below) of the printf function.
+	information below) of the printf function. It includes the conversion specifiers :  c, s, %, d, x, X, u, o, rot13 and i.
+
 
 For more detailed information, look at the [**subject of this project**](https://github.com/Surfi89/42cursus/tree/main/Subject%20PDFs).
 

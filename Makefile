@@ -6,11 +6,11 @@
 #    By: mbelouar <mbelouar@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/16 18:24:24 by mbelouar          #+#    #+#              #
-#    Updated: 2022/10/16 18:25:57 by mbelouar         ###   ########.fr        #
+#    Updated: 2022/10/19 00:43:28 by mbelouar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS	= ft_printf.c
+SRCS	= ft_printf.c ft_putnbr.c ft_putchar.c ft_putstr.c ft_putnbr_u.c ft_printhex.c
 OBJS	= ${SRCS:.c=.o}
 NAME	= libftprintf.a
 AR		= ar -r
@@ -24,7 +24,7 @@ ${NAME}:	${OBJS}
 			${AR} ${NAME} ${OBJS}
 
 clean:
-		${RM} ${OBJS} ${BONUS_O}
+		${RM} ${OBJS}
 
 fclean:	clean
 		${RM} ${NAME}
